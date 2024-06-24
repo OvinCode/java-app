@@ -1,0 +1,5 @@
+config
+
+API Endpoints : http://localhost:8081/swagger-ui/index.html
+App Port : 8081
+Redis Port : 6379

@@ -1,0 +1,33 @@
+2024-06-22 01:21:36 [http-nio-8080-exec-1] INFO  c.e.d.assignment.service.SqlParser - This is an info2 message
+2024-06-22 01:25:07 [http-nio-8080-exec-1] INFO  c.e.d.assignment.service.SqlParser - This is an info2 messageusers
+2024-06-22 01:36:21 [http-nio-8080-exec-1] INFO  c.e.d.assignment.service.SqlParser - This is an info2 messageusers
+2024-06-22 01:49:42 [http-nio-8080-exec-3] DEBUG c.e.d.assignment.service.SqlParser - Table name: peoples
+2024-06-22 01:49:42 [http-nio-8080-exec-3] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-22 01:49:42 [http-nio-8080-exec-3] INFO  c.e.d.assignment.service.SqlParser - This is an info message
+2024-06-22 01:50:39 [http-nio-8080-exec-5] INFO  c.e.d.assignment.service.SqlParser - This is an info2 messagepeoples
+2024-06-23 13:19:58 [http-nio-8080-exec-3] DEBUG c.e.d.assignment.service.SqlParser - Table name: users
+2024-06-23 13:19:58 [http-nio-8080-exec-3] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 13:20:00 [http-nio-8080-exec-4] DEBUG c.e.d.assignment.service.SqlParser - Table name: users
+2024-06-23 13:20:00 [http-nio-8080-exec-4] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 13:20:10 [http-nio-8080-exec-8] DEBUG c.e.d.assignment.service.SqlParser - Table name: peoples
+2024-06-23 13:20:10 [http-nio-8080-exec-8] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 13:20:17 [http-nio-8080-exec-6] DEBUG c.e.d.assignment.service.SqlParser - Table name: countries
+2024-06-23 13:20:17 [http-nio-8080-exec-6] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 14:42:35 [http-nio-8080-exec-6] DEBUG c.e.d.assignment.service.SqlParser - Table name: users
+2024-06-23 14:42:35 [http-nio-8080-exec-6] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 14:42:38 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table name: users
+2024-06-23 14:42:38 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 15:17:53 [http-nio-8080-exec-1] DEBUG c.e.d.assignment.service.SqlParser - Table name: users
+2024-06-23 15:17:53 [http-nio-8080-exec-1] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 15:19:14 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table name: orders
+2024-06-23 15:19:14 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {}
+2024-06-23 20:04:26 [http-nio-8080-exec-9] DEBUG c.e.d.assignment.service.SqlParser - Table name: buildings
+2024-06-23 20:04:26 [http-nio-8080-exec-9] DEBUG c.e.d.assignment.service.SqlParser - Column name: id, Column type: INTEGER
+2024-06-23 20:04:26 [http-nio-8080-exec-9] DEBUG c.e.d.assignment.service.SqlParser - Column name: name, Column type: STRING
+2024-06-23 20:04:26 [http-nio-8080-exec-9] DEBUG c.e.d.assignment.service.SqlParser - Column name: age, Column type: INTEGER
+2024-06-23 20:04:26 [http-nio-8080-exec-9] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {id=INTEGER, name=STRING, age=INTEGER}
+2024-06-23 20:17:36 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table name: cities
+2024-06-23 20:17:36 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Column name: id, Column type: INTEGER
+2024-06-23 20:17:36 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Column name: name, Column type: STRING
+2024-06-23 20:17:36 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Column name: age, Column type: INTEGER
+2024-06-23 20:17:36 [http-nio-8080-exec-5] DEBUG c.e.d.assignment.service.SqlParser - Table schema: {id=INTEGER, name=STRING, age=INTEGER}

@@ -1,0 +1,55 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DATABASE-SERVICE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/database-service.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="REDIS-SERVICE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/redis-service.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="SQL-PARSER" class="ch.qos.logback.core.FileAppender">
+        <file>logs/sql-parser.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="SPRING-PARSER" class="ch.qos.logback.core.FileAppender">
+        <file>logs/Spring-parser.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.example.dataparse.assignment.service.RedisService" level="DEBUG">
+        <appender-ref ref="REDIS-SERVICE" />
+    </logger>
+
+    <logger name="com.example.dataparse.assignment.service.DatabaseService" level="DEBUG">
+        <appender-ref ref="DATABASE-SERVICE" />
+    </logger>
+
+    <logger name="org.springframework" level="DEBUG">
+        <appender-ref ref="SPRING-PARSER" />
+    </logger>
+
+    <logger name="com.example.dataparse.assignment.service.SqlParser" level="DEBUG">
+        <appender-ref ref="SQL-PARSER" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
