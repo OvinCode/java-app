@@ -1,3 +1,2 @@
-id:INTEGER
 name:STRING
-age:INTEGER
+population:INTEGER
